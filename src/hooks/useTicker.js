@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { intervalToDuration, isBefore } from 'date-fns';
 
 export const useTicker = (futureDate) => {
-    const [now, setNow] =  useState(new Date());
+    const now = new Date();
+    const setNow =  useState(new Date());
 
     useEffect(() => {        
         const interval = setInterval(() => {
