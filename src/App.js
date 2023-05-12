@@ -4,7 +4,7 @@ import { Ticker } from 'components/Ticker';
 import style from './App.module.scss';
 
 const futureDate = add(new Date(), {
-  days: 135
+  days: 100
 });
 
 function App() {
