@@ -4,9 +4,9 @@ import { Ticker } from 'components/Ticker';
 import style from './App.module.scss';
 
 const futureDate = add(new Date(), {
-  days: 130,
-  hours: 0,
-  minutes: 0
+  days: 135,
+  hours: 12,
+  minutes: 12
 });
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
 
   return (
     <div className={ style.pageContainer }>
-      <h1>Mom's Birthday</h1>
-      <p>Countdown to January 23 2023</p>
+      //<h1>Class</h1>
+      <p>Countdown to Spetember 25 2023</p>
       { tickerEl }
     </div>  
   );
